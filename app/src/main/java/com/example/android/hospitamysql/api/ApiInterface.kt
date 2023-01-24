@@ -10,7 +10,7 @@ import retrofit2.http.POST
 
 interface ApiInterface {
 
-    @GET("/login.php")
+    @GET("login.php")
     fun getAllSick(): Call<String>
 
 }
