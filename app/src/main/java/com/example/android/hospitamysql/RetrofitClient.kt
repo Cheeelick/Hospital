@@ -4,17 +4,14 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.android.hospitamysql.api.ApiInterface
-import com.example.android.hospitamysql.api.Sick
-import com.example.android.hospitamysql.api.SickResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
 private const val TAG = "RetrofitClient"
-private const val BASE_URL = "http://10.0.2.2/"
+private const val BASE_URL = "http://192.168.0.103/"
 
 class RetrofitClient {
 
