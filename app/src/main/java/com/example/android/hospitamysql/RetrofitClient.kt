@@ -14,7 +14,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
 private const val TAG = "RetrofitClient"
-private const val BASE_URL = "http://10.0.2.2/"
+private const val BASE_URL = "http://192.168.0.103/"
 
 class RetrofitClient {
 
