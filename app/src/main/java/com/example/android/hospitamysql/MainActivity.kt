@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        val fragment = LoginFragment.newInstance()
-////        supportFragmentManager
-////            .beginTransaction()
-////            .add(R.id.fragment_container, fragment)
-////            .commit()
-
+//        supportFragmentManager
+//            .beginTransaction()
+//            .add(R.id.fragment_container, fragment)
+//            .commit()
+//
         val fragment = SickListFragment.newInstance()
         supportFragmentManager
             .beginTransaction()

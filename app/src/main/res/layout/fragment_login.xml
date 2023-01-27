@@ -7,7 +7,7 @@
 
 
     <EditText
-        android:id="@+id/fioAdministrator"
+        android:id="@+id/fio_Administrator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/numberAdministrator"
+        android:id="@+id/number_Administrator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
@@ -27,15 +27,15 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fioAdministrator" />
+        app:layout_constraintTop_toBottomOf="@+id/fio_Administrator" />
 
     <Button
-        android:id="@+id/buttonRegistration"
+        android:id="@+id/button_Registration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
         android:layout_marginTop="40dp"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberAdministrator" />
+        app:layout_constraintTop_toBottomOf="@+id/number_Administrator" />
 </androidx.constraintlayout.widget.ConstraintLayout>
